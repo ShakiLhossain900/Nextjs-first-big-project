@@ -21,5 +21,5 @@ function MainNavigation() {
 }
 
 export default MainNavigation;
-//need to take some time to understand the concept
+
 
