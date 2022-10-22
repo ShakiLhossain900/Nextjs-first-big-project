@@ -1,15 +1,15 @@
-import { Fragment } from "react";
-function MeetupDetail() {
+
+import classes from './MeetupDetail.module.css';
+
+
+function MeetupDetail(props) {
   return (
-    <Fragment>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/1280px-Stadtbild_M%C3%BCnchen.jpg"
-        alt=" A First Meetup "
-      />
-      <h1>A First Meetup</h1>
-      <address> Sector 10, uttara Dhaka</address>
-      <p>The meetup description</p>
-    </Fragment>
+    <section className={classes.detail}>
+      <img src={props.image} alt={props.title} />
+      <h1>{props.title}</h1>
+      <address> {props.address}</address>
+      <p>{props.description}</p>
+    </section>
   );
 }
 export default MeetupDetail;
