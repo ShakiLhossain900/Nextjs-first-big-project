@@ -1,4 +1,5 @@
 import MeetupList from "../components/meetups/MeetupList";
+import {useEffect} from "react";
 const DUMMY_MEETUPS = [
   {
     id: "m1",
@@ -18,6 +19,7 @@ const DUMMY_MEETUPS = [
   },
 ];
 function HomePage() {
+  useEffect(() => {},[])
   return (
       <MeetupList meetups={DUMMY_MEETUPS} />
   );
