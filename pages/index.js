@@ -36,7 +36,7 @@ export async function getStaticProps() {
     props: {
       meetups:DUMMY_MEETUPS
     },
-    revalidate:10 //every 10minutes por page render hobe
+    revalidate:1         //every 10minutes por page render hobe
   }
 }
 
