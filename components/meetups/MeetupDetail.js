@@ -17,4 +17,6 @@ export default MeetupDetail;
 
 
 
-
+git add .
+git commit -m "afing"
+grt push

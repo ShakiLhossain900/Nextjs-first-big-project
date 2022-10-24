@@ -14,4 +14,4 @@ export default MyApp;
 
 
 
-// video 23 baki ache exploring server side 
+// video 23 baki ache exploring server side porjnto SSR
