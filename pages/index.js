@@ -19,13 +19,15 @@ const DUMMY_MEETUPS = [
   },
 ];
 function HomePage(props) {
-  const [loadedMeetups, setLoadedMeetups] = useState([]);
+  // getStaticProps er karone amara kono state and useEffect use kora latacena 
+  //getstaticProps er karone 
+  // const [loadedMeetups, setLoadedMeetups] = useState([]);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    setLoadedMeetups(DUMMY_MEETUPS);
+  //   setLoadedMeetups(DUMMY_MEETUPS);
 
-  }, []);
+  // }, []);
   return <MeetupList meetups={loadedMeetups} />;
 }
 
