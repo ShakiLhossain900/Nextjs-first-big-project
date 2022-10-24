@@ -28,4 +28,7 @@ function HomePage() {
   }, []);
   return <MeetupList meetups={loadedMeetups} />;
 }
+
+export function getStaticProps() {}
+
 export default HomePage;
