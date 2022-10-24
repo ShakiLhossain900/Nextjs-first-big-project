@@ -13,4 +13,4 @@ function MyApp({ Component, pageProps }) {
 export default MyApp;
 
 
-//019 adding custom components and adding css module done
+
