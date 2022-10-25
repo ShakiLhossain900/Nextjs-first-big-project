@@ -41,3 +41,10 @@ export async function getStaticProps() {
 }
 
 export default HomePage;
+
+
+
+
+// git add .
+// git commit -m "afing"
+// grt push
