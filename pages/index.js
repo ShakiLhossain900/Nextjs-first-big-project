@@ -32,7 +32,7 @@ function HomePage(props) {
 
 
 
-export async function getServerSideProps(props) {
+export async function getServerSideProps() {
   // fetxh data from API  
   return { 
     props:{
