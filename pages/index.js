@@ -47,6 +47,7 @@ function HomePage(props) {
 
 //for better we can use getStaticProps
 
+
 // getStaticProps
 export async function getStaticProps() {
   //fetch data from an API
