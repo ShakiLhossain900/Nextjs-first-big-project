@@ -44,7 +44,7 @@ function HomePage(props) {
 // }
 
 
-
+//
 //for better we can use getStaticProps
 
 
