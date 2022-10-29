@@ -34,6 +34,10 @@ function HomePage(props) {
 // getServerSideProps
 
 // export async function getServerSideProps() {
+ //const req = context.req;
+ //const res = context.res;
+ 
+
 //   // fetxh data from API  
 //   return { 
 //     props:{
