@@ -12,6 +12,5 @@ function MyApp({ Component, pageProps }) {
 
 export default MyApp;
 
-
-
-// video 23 baki ache exploring server side porjnto SSR
+//24 y stop working just watching next and understanding
+//keep working on API route 
