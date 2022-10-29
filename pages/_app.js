@@ -16,3 +16,4 @@ export default MyApp;
 //keep working on API route 
 // that all video done wtaching and if after need i will  try to implement if needed
 //mongodb use kore database data sent kore than abar ata fetch kore beckend theke
+//after that project deploy kore vercel y 
